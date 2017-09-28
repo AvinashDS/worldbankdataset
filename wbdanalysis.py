@@ -31,10 +31,12 @@ def plot_pop(filename, country_code):
 		data = data.append(df_pop_ceb)
 
 	#Plotting the Graph for the Population Change over the span of 50 years
-	data.plot(kind='scatter', x='Year', y='Total Urban Population')
+	data.plot(kind='scatter', x='Year', y='Total Urban Population', title= country_code)
 
 	plt.show()
 
 fn = 'world_ind_pop_data.csv'
 
 plot_pop(fn, 'IND')
+
+plot_pop(fn, 'CHN')
