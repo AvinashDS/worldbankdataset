@@ -4,7 +4,7 @@ World Bank Data - Analyzing and Plotting
 
 #Importing Pandas and Matplotlib
 import pandas as pd
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 
 
 def plot_pop(filename, country_code):
@@ -55,7 +55,7 @@ def plot_pop(filename, country_code):
 	plt.show()
 
 fn = 'world_ind_pop_data.csv'
-
+#Testing for Git on Mac
 #Showing Plots of BRICS Countries Data of 50 years
 plot_pop(fn, 'BRA')
 plot_pop(fn, 'RUS')
